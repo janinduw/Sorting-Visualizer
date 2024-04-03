@@ -1,0 +1,15 @@
+.array-container {
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+}
+
+.array-bar {
+  width: 2px;
+  margin: 0 0.5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(to top, #5756d6, #c056f4);
+  position: relative; /* Required for absolute positioning inside */
+}
